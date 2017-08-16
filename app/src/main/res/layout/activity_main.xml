@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+     <TextView
+         android:id="@+id/actionNotification"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="Static Broadcast"
+        android:id="@+id/btnStaticBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="Static Broadcast2"
+        android:id="@+id/btnStaticBroadcast2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="Dynamic Braodcast"
+        android:id="@+id/btnDymnamicBroadCast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="Send SMS"
+        android:id="@+id/btnSendSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText android:id="@+id/btnSendText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="MEDIA REMOVED"
+        android:id="@+id/btnMediaRemoved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="POWER CONNECTED"
+        android:id="@+id/btnpowerConnected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="USER UNCLOCKED"
+        android:id="@+id/btnUserUnclocked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
